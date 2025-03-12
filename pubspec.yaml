@@ -1,0 +1,38 @@
+name: first_task
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1  # ✅ Correctly placed
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/bgnu.jpg
+    - assets/logo.jpg
+    - assets/A.jpg
+    - assets/icon.png
+    - assets/vc.jpeg
+    - assets/f.jpg
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/logo.png"
